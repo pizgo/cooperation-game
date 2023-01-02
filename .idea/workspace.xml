@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf95022-8981-44ba-ba1b-2e187cd0c50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/elements/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LandingPage/Demo/DemoBoard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LandingPage/Demo/DemoMain.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LandingPage/Demo/DemoTaskList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logging/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logging/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Logout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logging/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingPage/LandingPageMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingPage/LandingPageMain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logging/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logging/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Logout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logging/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logging/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -45,11 +52,13 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/LandingPage/Demo" />
       <recent name="$PROJECT_DIR$/src/scss" />
     </key>
   </component>
@@ -63,7 +72,8 @@
       <updated>1672151280737</updated>
       <workItem from="1672151282081" duration="493000" />
       <workItem from="1672608220201" duration="164000" />
-      <workItem from="1672608631831" duration="6764000" />
+      <workItem from="1672608631831" duration="9893000" />
+      <workItem from="1672686955765" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -80,5 +90,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
