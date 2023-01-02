@@ -1,10 +1,23 @@
-
+import Navbar from "./components/Navbar/Navbar";
+import LandingPage from "./components/LandingPage/LandingPageMain";
+import Login from "./components/Logging/Login";
+import Register from "./components/Logging/Register";
+import Logout from "./components/Logging/Logout";
+import { Route, Routes } from "react-router-dom";
+import LandingPageMain from "./components/LandingPage/LandingPageMain";
 
 function App() {
+
   return (
-    <div>
-      <h1 className="text-primary">Hello</h1>
-    </div>
+      <>
+          <Navbar/>
+          <Routes>
+              <Route path='/' element={<LandingPageMain/>}/>
+              <Route path='/login' element={<Login/>}/>
+              <Route path='/registration' element={<Register/>}/>
+              <Route path='/logout' element={<Logout/>}/>
+          </Routes>
+      </>
   );
 }
 

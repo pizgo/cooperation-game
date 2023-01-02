@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcf95022-8981-44ba-ba1b-2e187cd0c50a" name="Default Changelist" comment="" />
+    <list default="true" id="bcf95022-8981-44ba-ba1b-2e187cd0c50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/LandingPage/LandingPageMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logging/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logging/Logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logging/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,7 @@
       <list>
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,7 +61,7 @@
       <updated>1672151280737</updated>
       <workItem from="1672151282081" duration="493000" />
       <workItem from="1672608220201" duration="164000" />
-      <workItem from="1672608631831" duration="4360000" />
+      <workItem from="1672608631831" duration="5392000" />
     </task>
     <servers />
   </component>
