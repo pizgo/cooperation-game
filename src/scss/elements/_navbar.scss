@@ -1,0 +1,125 @@
+.navbar-container {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100vw;
+
+  //@include media-breakpoint-up(lg) {
+  //  top: 13px;
+  //  left: -1rem;
+  //  background: none;
+  //}
+}
+
+.menu {
+
+  li {
+    padding: 0 1.2rem;
+
+    a {
+      color: black;
+      letter-spacing: .05rem;
+      transition: .5s all ease-in-out;
+      position: relative;
+      will-change: transform;
+
+      &:before {
+        content: '';
+        border-bottom: .1rem solid black;
+        display: block;
+        position: absolute;
+        background: transparent;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        right: 100%;
+        transition: .3s all ease-in-out;
+      }
+      &:hover {
+        letter-spacing: .1rem;
+        color: black;
+      }
+      &:hover:before {
+
+        //@include media-breakpoint-up(md) {
+        //  left: 0;
+        //  right: 0;
+        //  border-bottom: .1rem solid $secondary;
+        //}
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  color: transparent;
+  width: 20px;
+  height: 10px;
+  position: relative;
+  transition: .5s ease-in-out;
+
+  span {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: black;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .15s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+//when navigation clicked
+
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  display: none;
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+//when navigation is collapsed
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  display: block;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+

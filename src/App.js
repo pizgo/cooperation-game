@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar/Navbar";
-import LandingPage from "./components/LandingPage/LandingPageMain";
+import LandingPageMain from "./components/LandingPage/LandingPageMain";
 import Login from "./components/Logging/Login";
 import Register from "./components/Logging/Register";
 import Logout from "./components/Logging/Logout";
 import { Route, Routes } from "react-router-dom";
-import LandingPageMain from "./components/LandingPage/LandingPageMain";
+
 
 function App() {
 
